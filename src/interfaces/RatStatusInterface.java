@@ -29,6 +29,6 @@ public interface RatStatusInterface
 	 * 0 Rat alive
 	 * -1 Rat finished 
 	 */
-	public void setRatState(int pRateState);
+	public void setRatState(int pRatState);
 	
 }

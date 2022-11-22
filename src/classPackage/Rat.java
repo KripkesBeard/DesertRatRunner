@@ -37,7 +37,7 @@ public class Rat implements RatInterface {
 	 * @param int n number of Rats so far.
 	 * @return String RatID name.
 	 */
-	private static String genID(int n) {
+	private String genID(int n) {
 		
 		String name;
 		int choice = (int)(Math.random() * 10);

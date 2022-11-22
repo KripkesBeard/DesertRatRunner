@@ -250,7 +250,7 @@ public class Desert implements DesertInterface {
 	 * Displays the ordered pair of the cells the Rat visited on its trip. If there's a sudden jump in the numbers, that means
 	 * there was a teleport
 	 */
-	public void displayRatPath() {
+	private void displayRatPath() {
 		int n = 0;
 		
 		for (int i = 0; i < this.ratPath.size(); ++i) {
